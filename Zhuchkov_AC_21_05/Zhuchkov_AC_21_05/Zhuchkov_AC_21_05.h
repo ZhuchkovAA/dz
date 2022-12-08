@@ -30,5 +30,5 @@ void metod_umnojeniya(string num)
         cout << "ќшибка\n¬ведите число";
         return;
     }
-    cout << "HashFunction(" << num << ")=" << HashFunction(atoi(num.c_str())) << endl;
+    return HashFunction(atoi(num.c_str()));
 }
